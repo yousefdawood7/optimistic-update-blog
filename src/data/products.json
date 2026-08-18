@@ -1,46 +1,5 @@
 [
   {
-    "title": "Project Management",
-    "status": "active",
-    "description": "A collaborative workspace for managing projects, tasks, and team progress."
-  },
-  {
-    "title": "Analytics Dashboard",
-    "status": "active",
-    "description": "A real-time analytics platform for tracking business metrics and performance."
-  },
-  {
-    "title": "Customer Portal",
-    "status": "active",
-    "description": "A secure portal where customers can manage accounts, requests, and documents."
-  },
-  {
-    "title": "Invoice Manager",
-    "status": "active",
-    "description": "A lightweight invoicing system for creating, tracking, and managing invoices."
-  },
-  {
-    "title": "Team Workspace",
-    "status": "active",
-    "description": "A centralized workspace for teams to collaborate and organize their work."
-  },
-
-  {
-    "title": "AI Content Studio",
-    "status": "development",
-    "description": "An AI-powered workspace for generating, editing, and organizing content."
-  },
-  {
-    "title": "Website Builder",
-    "status": "development",
-    "description": "A visual website builder for creating responsive websites without writing code."
-  },
-  {
-    "title": "Automation Hub",
-    "status": "development",
-    "description": "A workflow automation platform for connecting services and automating repetitive tasks."
-  },
-  {
     "title": "Developer Cloud",
     "status": "development",
     "description": "A cloud workspace for deploying, monitoring, and managing developer projects."
@@ -52,21 +11,6 @@
   },
 
   {
-    "title": "Legacy Dashboard",
-    "status": "archived",
-    "description": "An older dashboard that has been retired and replaced by a newer platform."
-  },
-  {
-    "title": "Old Marketing Tool",
-    "status": "archived",
-    "description": "A previous marketing management tool that is no longer actively maintained."
-  },
-  {
-    "title": "File Manager",
-    "status": "archived",
-    "description": "A discontinued file management application for organizing and sharing documents."
-  },
-  {
     "title": "Notification Center",
     "status": "archived",
     "description": "A retired notification service previously used for application alerts."
@@ -75,5 +19,10 @@
     "title": "Internal Wiki",
     "status": "archived",
     "description": "An internal knowledge base that has been replaced by a newer documentation system."
+  },
+  {
+    "title": "Project Management",
+    "status": "active",
+    "description": "A collaborative workspace for managing projects, tasks, and team progress."
   }
 ]

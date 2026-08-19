@@ -1,26 +1,30 @@
 [
   {
+    "id": "1",
     "title": "Developer Cloud",
     "status": "development",
     "description": "A cloud workspace for deploying, monitoring, and managing developer projects."
   },
   {
+    "id": "2",
     "title": "Smart CRM",
     "status": "development",
     "description": "A customer relationship platform for managing leads and customer interactions."
   },
-
   {
+    "id": "3",
     "title": "Notification Center",
     "status": "archived",
     "description": "A retired notification service previously used for application alerts."
   },
   {
+    "id": "4",
     "title": "Internal Wiki",
     "status": "archived",
     "description": "An internal knowledge base that has been replaced by a newer documentation system."
   },
   {
+    "id": "5",
     "title": "Project Management",
     "status": "active",
     "description": "A collaborative workspace for managing projects, tasks, and team progress."

@@ -16,7 +16,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className={`${geistSans.className} h-full antialiased`}>
       <body className="min-h-full flex flex-col bg-primary">
-        <main className="flex w-full flex-col justify-center items-center text-primary-foreground min-h-svh">
+        <main className="py-5 flex w-full flex-col justify-center items-center text-primary-foreground min-h-svh">
           {children}
         </main>
       </body>

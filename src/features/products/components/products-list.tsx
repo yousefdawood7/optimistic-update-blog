@@ -1,11 +1,16 @@
-import ProductCard from "@/components/products/product-card";
 import products from "@/data/products.json";
 import { STATUS } from "@/constants";
+import ProductCard from "@/features/products/components/product-card";
 
-export default function ProductList() {
+type ProductListProps = {
+  products: typeof products;
+};
+
+export default function ProductList({ products }: ProductListProps) {
+
   return products.map((product) => (
     <ProductCard
-      key={product.title}
+      key={product.id}
       title={product.title}
       description={product.description}
       StatusIcon={STATUS[product.status.toUpperCase() as keyof typeof STATUS]}

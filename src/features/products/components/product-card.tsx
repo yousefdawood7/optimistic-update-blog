@@ -22,22 +22,22 @@ export default function ProductCard({
     <div className="w-full flex justify-center gap-5">
       <Card className="max-w-125 w-full">
         <CardHeader>
-          <CardTitle className="flex gap-2 text-xl items-center">
+          <CardTitle className="flex gap-2 text-lg items-center">
             <div className="bg-primary/10 p-2 rounded-md">
-              <StatusIcon className="size-8" />
+              <StatusIcon className="" />
             </div>
             <p>{title}</p>
           </CardTitle>
-          <CardDescription className="text-lg">{description}</CardDescription>
+          <CardDescription className="">{description}</CardDescription>
         </CardHeader>
       </Card>
 
       <Button
         variant={"ghost"}
         size={"icon-lg"}
-        className={"border border-primary-foreground size-12"}
+        className={"border border-primary-foreground"}
       >
-        <LucideTrash2 className="size-7" />
+        <LucideTrash2 className="size-6" />
       </Button>
     </div>
   );

@@ -1,11 +1,10 @@
-import { Button } from "@/components/ui/button";
 import {
   Card,
   CardDescription,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { LucideTrash2, type LucideIcon } from "lucide-react";
+import { type LucideIcon } from "lucide-react";
 
 type ProductCardProps = {
   title: string;
@@ -19,26 +18,16 @@ export default function ProductCard({
   StatusIcon,
 }: ProductCardProps) {
   return (
-    <div className="w-full flex justify-center gap-5">
-      <Card className="max-w-125 w-full">
-        <CardHeader>
-          <CardTitle className="flex gap-2 text-lg items-center">
-            <div className="bg-primary/10 p-2 rounded-md">
-              <StatusIcon className="" />
-            </div>
-            <p>{title}</p>
-          </CardTitle>
-          <CardDescription className="">{description}</CardDescription>
-        </CardHeader>
-      </Card>
-
-      <Button
-        variant={"ghost"}
-        size={"icon-lg"}
-        className={"border border-primary-foreground"}
-      >
-        <LucideTrash2 className="size-6" />
-      </Button>
-    </div>
+    <Card className="max-w-125 w-full">
+      <CardHeader>
+        <CardTitle className="flex gap-2 text-lg items-center">
+          <div className="bg-primary/10 p-2 rounded-md">
+            <StatusIcon className="" />
+          </div>
+          <p>{title}</p>
+        </CardTitle>
+        <CardDescription className="">{description}</CardDescription>
+      </CardHeader>
+    </Card>
   );
 }
